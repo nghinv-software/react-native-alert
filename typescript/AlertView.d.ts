@@ -66,4 +66,4 @@ interface AlertViewInterface extends React.FC<AlertViewProps> {
   BottomView: React.FC<AlertBottomViewProps>;
 }
 
-export declare function AlertView(props: AlertViewProps): JSX.Element;
+export const AlertView: AlertViewInterface;
