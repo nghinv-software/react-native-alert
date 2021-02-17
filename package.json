@@ -1,0 +1,30 @@
+{
+  "name": "react-native-alert",
+  "version": "1.0.0",
+  "description": "A custom alert component",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-alert",
+    "alert"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nghi-NV/react-native-alert.git"
+  },
+  "author": "NghiNV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nghi-NV/react-native-alert/issues"
+  },
+  "homepage": "https://github.com/Nghi-NV/react-native-alert#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-gesture-handler": "*",
+    "react-native-reanimated": ">=2.0.0-rc.0"
+  }
+}
