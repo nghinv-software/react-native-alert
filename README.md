@@ -24,7 +24,7 @@ npm install @nghinv/react-native-alert
 1. Wrapper `AlertService` in the `Root Component`
 
 ```javascript
-  import { AlertService } from 'react-native-alert';
+  import { AlertService } from '@nghinv/react-native-alert';
 
   ...
   return (
