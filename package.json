@@ -16,7 +16,7 @@
     "url": "https://github.com/Nghi-NV/react-native-alert.git"
   },
   "author": "nghinv@lumi.biz",
-  "types": "react-native-alert.d.ts",
+  "types": "lib/index.js",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Nghi-NV/react-native-alert/issues"
