@@ -15,7 +15,8 @@
     "type": "git",
     "url": "https://github.com/Nghi-NV/react-native-alert.git"
   },
-  "author": "NghiNV",
+  "author": "nghinv@lumi.biz",
+  "types": "react-native-alert.d.ts",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Nghi-NV/react-native-alert/issues"
@@ -26,5 +27,9 @@
     "react-native": "*",
     "react-native-gesture-handler": "*",
     "react-native-reanimated": ">=2.0.0-rc.0"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
   }
 }
