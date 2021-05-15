@@ -5,6 +5,7 @@
 
 import React from 'react';
 import { ViewStyle, TextStyle } from 'react-native';
+import Animated from 'react-native-reanimated';
 import { AlertButtonProps } from './Button';
 import { AlertTitleProps } from './Title';
 import { AlertMessageProps } from './Message';
@@ -26,6 +27,14 @@ export type AlertAction = Array<{
   testIDTitle?: String;
   accessibilityLabelTitle?: String;
 }>
+
+interface OverlayProps {
+  progress: Animated.SharedValue<Number>;
+  onPress?: () => void;
+  backgroundColor?: String;
+  overlayOpacity?: Number;
+  showStatusBar?: Boolean;
+}
 
 export interface AlertViewProps {
   nativeModal: Boolean;
@@ -55,6 +64,7 @@ export interface AlertViewProps {
   testIDAlert?: String;
   accessibilityLabelAlert?: String;
   showStatusBar?: Boolean;
+  overlayProps?: OverlayProps;
 }
 
 interface AlertViewInterface extends React.FC<AlertViewProps> {

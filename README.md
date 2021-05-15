@@ -19,8 +19,6 @@ yarn add @nghinv/react-native-alert
 npm install @nghinv/react-native-alert
 ```
 
-<img src="./assets/example.gif" height="600"/>
-
 # How to use
 
 1. Wrapper `AlertService` in the `Root Component`
