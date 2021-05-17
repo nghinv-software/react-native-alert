@@ -37,19 +37,35 @@ interface OverlayProps {
 }
 
 export interface AlertViewProps {
+  /*
+   * Use Modal from react-native. Default true 
+   */
   nativeModal: Boolean;
+  /*
+   * Show/hide alert
+   */
   visible: Boolean;
   setVisible: (value: Boolean) => void;
   title?: String;
   message?: String;
   actions?: AlertAction;
+  /*
+   * Width alert view
+   */
   width?: Number | String;
   borderRadius?: Number;
   backgroundColor?: String;
   separatorColor?: String;
   onOpen?: () => void;
   onClose?: () => void;
+  /*
+   * Animation type when alert is opening. Default is spring
+   */
   animationType?: 'spring' | 'timing';
+  /*
+   * Default = 1.05 on Ios and 1.02 on Android
+   */
+  scaleAnimationInit: Number;
   springAnimationConfig: Object;
   timingAnimationConfig: Object;
   avoidKeyboard: Boolean;
