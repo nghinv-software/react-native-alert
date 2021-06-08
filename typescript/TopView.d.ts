@@ -4,7 +4,6 @@
  */
 
 import { ViewStyle } from 'react-native';
-
 export interface AlertTopViewProps {
   style?: ViewStyle;
 }

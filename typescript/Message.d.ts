@@ -4,7 +4,6 @@
  */
 
 import { TextStyle, TextProps } from 'react-native';
-
 export interface AlertMessageProps extends TextProps {
   value?: String;
   color?: String;

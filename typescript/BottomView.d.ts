@@ -3,6 +3,7 @@
  * Copyright (c) 2021 nghinv@lumi.biz
  */
 
+import { ViewStyle } from 'react-native';
 export interface AlertBottomViewProps {
   style?: ViewStyle;
   separatorColor?: String;

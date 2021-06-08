@@ -29,7 +29,7 @@ export type AlertAction = Array<{
 }>
 
 interface OverlayProps {
-  progress: Animated.SharedValue<Number>;
+  progress?: Animated.SharedValue<Number>;
   onPress?: () => void;
   backgroundColor?: String;
   overlayOpacity?: Number;
@@ -40,12 +40,12 @@ export interface AlertViewProps {
   /*
    * Use Modal from react-native. Default true 
    */
-  nativeModal: Boolean;
+  nativeModal?: Boolean;
   /*
    * Show/hide alert
    */
-  visible: Boolean;
-  setVisible: (value: Boolean) => void;
+  visible?: Boolean;
+  setVisible?: (value: Boolean) => void;
   title?: String;
   message?: String;
   actions?: AlertAction;
@@ -65,10 +65,10 @@ export interface AlertViewProps {
   /*
    * Default = 1.05 on Ios and 1.02 on Android
    */
-  scaleAnimationInit: Number;
-  springAnimationConfig: Object;
-  timingAnimationConfig: Object;
-  avoidKeyboard: Boolean;
+  scaleAnimationInit?: Number;
+  springAnimationConfig?: Object;
+  timingAnimationConfig?: Object;
+  avoidKeyboard?: Boolean;
   renderContent?: React.FC;
   renderBackground?: React.FC;
   titleProps?: AlertTitleProps;
