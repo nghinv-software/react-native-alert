@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-alert",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A custom alert component",
   "main": "lib/index.js",
   "scripts": {

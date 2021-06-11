@@ -14,7 +14,7 @@ import { AlertTopViewProps } from './TopView';
 import { AlertBottomViewProps } from './BottomView';
 
 export type AlertAction = Array<{
-  text: String;
+  text?: String;
   onPress?: () => void;
   onPressIn?: () => void;
   autoDismiss?: Boolean;
@@ -81,6 +81,7 @@ export interface AlertViewProps {
   accessibilityLabelAlert?: String;
   showStatusBar?: Boolean;
   overlayProps?: OverlayProps;
+  timeDismiss?: Number;
 }
 
 interface AlertViewInterface extends React.FC<AlertViewProps> {

@@ -6,7 +6,7 @@
 import { ViewStyle, TextStyle, TouchableOpacityProps, TextProps } from 'react-native';
 
 export interface AlertButtonProps {
-  title: String;
+  title?: String;
   onPress?: () => void;
   style?: ViewStyle;
   titleColor?: String;
