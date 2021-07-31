@@ -5,7 +5,6 @@ A custom alert component with react-native-reanimated
 
 ---
 
-
 [![Version][version-badge]][package]
 [![MIT License][license-badge]][license]
 [![All Contributors][all-contributors-badge]][all-contributors]
@@ -27,6 +26,10 @@ yarn add @nghinv/react-native-alert
 
 ```sh
 npm install @nghinv/react-native-alert
+```
+
+```sh
+yarn add react-native-gesture-handler react-native-reanimated
 ```
 
 # How to use
@@ -88,6 +91,11 @@ const styles = StyleSheet.create({
   }
 });
 ```
+
+---
+## Credits
+
+- [@Nghi-NV](https://github.com/Nghi-NV)
 
 [version-badge]: https://img.shields.io/npm/v/@nghinv/react-native-alert.svg?style=flat-square
 [package]: https://www.npmjs.com/package/@nghinv/react-native-alert
