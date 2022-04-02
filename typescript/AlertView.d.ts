@@ -70,6 +70,7 @@ export interface AlertViewProps {
   timingAnimationConfig?: Object;
   avoidKeyboard?: Boolean;
   renderContent?: React.FC;
+  renderMessage?: React.FC;
   renderBackground?: React.FC;
   titleProps?: AlertTitleProps;
   messageProps?: AlertMessageProps;
