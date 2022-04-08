@@ -83,6 +83,8 @@ export interface AlertViewProps {
   showStatusBar?: Boolean;
   overlayProps?: OverlayProps;
   timeDismiss?: Number;
+  hasTextInput?: Boolean;
+  KeyboardScrollComponent?: React.ReactNode;
 }
 
 interface AlertViewInterface extends React.FC<AlertViewProps> {
